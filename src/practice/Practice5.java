@@ -9,8 +9,8 @@ public class Practice5 {
 		System.out.println("ようこそ" + name + "さん");
 		// キーボードから数字の入力を受け取る
 		System.out.println("年齢を教えてください");
-		int input = new java.util.Scanner(System.in).nextInt();
-		System.out.println(input + "歳ですね");
+		int age = new java.util.Scanner(System.in).nextInt();
+		System.out.println(age + "歳ですね");
 
 	}
 
